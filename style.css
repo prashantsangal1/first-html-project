@@ -1,0 +1,51 @@
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+.origami{border-style:solid;
+    border-radius: 20px;
+    background-color: white;
+    width:310px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu{display:flex; 
+            justify-content: space-between;
+            background-color: black;
+            font-size: 20px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 200;
+            color:gold;
+            }
+.more{
+    display:flex;
+}
+.head{
+    display:flex;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.intro{
+    display:flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%, -60%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color:greenyellow;
+}
+a:hover{
+    color:lightgreen;
+}
