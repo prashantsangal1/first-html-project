@@ -1,12 +1,20 @@
 .grid{
     display:flex;
     flex-wrap: wrap;
+    margin: 10px;
 }
 .origami{border-style:solid;
     border-radius: 20px;
     background-color: white;
     width:310px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 10px;
+    padding: 30px;
+}
+body{
+    color: wheat;
+    margin:0px;
 }
 .menu{display:flex; 
             justify-content: space-between;
@@ -15,6 +23,7 @@
             font-family:'Courier New', Courier, monospace;
             font-weight: 200;
             color:gold;
+            padding: 20px;
             }
 .more{
     display:flex;
@@ -31,9 +40,9 @@
 .intro{
     display:flex;
     position: absolute;
-    top: 60%;
+    top: 61.5%;
     left: 50%;
-    transform:translate(-50%, -60%);
+    transform:translate(-50%, -61.5%);
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgba(0, 0, 0, 0.514);
